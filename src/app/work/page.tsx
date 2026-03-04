@@ -17,7 +17,7 @@ const jobs: WorkJob[] = workExperience.map((j) => ({
   description: j.description,
   slug: j.slug,
   logoDomain: j.logoDomain,
-  logoUrl: "logoUrl" in j ? j.logoUrl : undefined,
+  logoUrl: "logoUrl" in j && typeof j.logoUrl === "string" ? j.logoUrl : undefined,
 }));
 
 export default function WorkPage() {

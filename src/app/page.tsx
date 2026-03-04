@@ -101,7 +101,7 @@ export default function Home() {
               <CompanyLogo
                 domain={job.logoDomain}
                 company={job.company}
-                logoUrl={"logoUrl" in job ? job.logoUrl : undefined}
+                logoUrl={"logoUrl" in job && typeof job.logoUrl === "string" ? job.logoUrl : undefined}
                 className="mt-0.5"
               />
               <div className="min-w-0 flex-1">
