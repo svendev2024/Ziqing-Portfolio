@@ -177,7 +177,7 @@ export const projects: ProjectDetail[] = [
     title: "Payment Processing & Fraud Detection Systems",
     description: "Scalable backend systems for payments and fraud at Conekta",
     slug: "project-a",
-    image: "/work/first-work.png",
+    image: "oscilar",
     teamSize: 4,
     role: "Senior Software Engineer",
     duration: "Oct 2024 - Present",
