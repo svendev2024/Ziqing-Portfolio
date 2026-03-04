@@ -43,10 +43,8 @@ function EmailIcon() {
 }
 
 const socialLinks = [
-  { href: "tel:+12027652780", icon: PhoneIcon, label: "Phone" },
-  { href: "https://wa.me/+12027652780", icon: ChatIcon, label: "WhatsApp" },
-  { href: "https://linkedin.com/in/john-angelo-santos", icon: LinkedInIcon, label: "LinkedIn" },
-  { href: "johnjinwork9@gmail.com", icon: EmailIcon, label: "Email" },
+  { href: "https://www.linkedin.com/in/maxvillafranca", icon: LinkedInIcon, label: "LinkedIn" },
+  { href: "mailto:up.work.max.v@gmail.com", icon: EmailIcon, label: "Email" },
 ];
 
 export default function Footer() {

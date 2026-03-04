@@ -7,7 +7,7 @@ import { site } from "@/data/content";
 export const metadata: Metadata = {
   title: `${site.name} - Portfolio`,
   description:
-    "Software Engineer with over 12 years of experience across full-stack development, backend services, and cloud-based solutions.",
+    "Software Developer based in Monterrey, Mexico. Java/Spring Boot, Rust, payment processing, fraud detection, and full-stack web applications.",
 };
 
 export default function RootLayout({
