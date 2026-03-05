@@ -1,6 +1,6 @@
-# Portfolio – John Angelo Santos (Clone)
+# Ziqing He – Portfolio
 
-A Next.js clone of [john-angelo-santos.vercel.app](https://john-angelo-santos.vercel.app/).
+A Next.js portfolio for Ziqing He, Senior Software Engineer (React, Next.js, TypeScript, Ethereum/Web3).
 
 ## Stack
 
